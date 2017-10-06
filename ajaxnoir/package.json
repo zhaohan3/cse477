@@ -1,0 +1,23 @@
+{
+  "name": "ajaxnoir",
+  "version": "1.0.0",
+  "description": "Ajax Noir",
+  "main": "index.php",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "qunitjs": "^2.3.3"
+  }
+}

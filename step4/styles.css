@@ -1,0 +1,101 @@
+/*html, body, header, footer, hgroup, nav, article, section, figure,*/
+/*figcaption, h1, h2, h3, ul, li, body, div, p, img {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-size: 100%;*/
+    /*vertical-align: baseline;*/
+    /*border: 0;*/
+/*}*/
+body{
+    margin-top: 0;
+    background-image: url("cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: "Arial", sans-serif;
+}
+h1{
+
+}
+#links{
+    text-align: right;
+    margin-top: 0;
+}
+header{
+    /*margin-right: 10%;*/
+    /*margin-left: 10%;*/
+    width: 650px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #3f3622;
+    color: white;
+}
+header h1{
+    text-align: center;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+}
+header a{
+    color: inherit;
+}
+header a:visited{
+    color: grey;
+}
+#game-body{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#game-body img#cave{
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 5em;*/
+    /*margin-bottom: 5em;*/
+    display: block;
+    padding: 0.5em;
+    border: thin solid black;
+}
+#game-body p{
+    text-align: center;
+    font-size: 150%;
+}
+#game-body #game-info p{
+    margin: 0 0 0 0;
+}
+#game-body .rooms{
+    text-align: center;
+    padding-top: 1.5em;
+}
+#game-body .rooms .room{
+    width: 200px;
+    display: inline-block;
+    border:none;
+}
+#game-body .labels{
+    text-align: center;
+    padding-top: 0em;
+}
+#game-body .labels .label{
+    padding-top: 0;
+    display: inline-block;
+    width: 200px;
+}
+#game-body a{
+    color: #3f3622
+}
+#game-body-bottom{
+    margin-bottom: 0;
+}
+#game-body span#welcome-wumpus{
+    font-style: italic;
+    font-size: 110%;
+}
+#game-body p.instructions{
+    display: block;
+    text-align: left;
+    font-size: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+}

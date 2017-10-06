@@ -1,0 +1,56 @@
+div.game-body{
+  background-color: #97a2a2;
+  overflow: auto;
+}
+div.game-body-content{
+  margin: 1em auto;
+  width: 100%;
+  max-width: 800px;
+  overflow: auto;
+  text-align: center;
+}
+table.game-body-table{
+  background-color: white;
+  border: 2px solid black;
+  margin: auto;
+  border-collapse: collapse;
+}
+table.game-body-table tr{
+
+}
+table.game-body-table td{
+  width: 1.5em;
+  height: 1.5em;
+  font-size: 2em;
+  border: thin solid black;
+}
+div.game-body-content p{
+  color: white;
+}
+
+.sea{
+  background-color: blue;
+}
+.island{}
+.vacant{}
+.number{}
+.incorrect{
+  background-color: red;
+}
+/* styling below is to override the color set by d.game-body-content p for message p's */
+div.game-body-content p.message{
+  color: darkmagenta;
+}
+/* message on index-post.php */
+.message{
+  color: darkmagenta;
+}
+table.game-body-table td button{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: none;
+  font-size: 1em;
+}

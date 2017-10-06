@@ -1,0 +1,154 @@
+/*html, body, header, footer, hgroup, nav, article, section, figure,*/
+/*figcaption, h1, h2, h3, ul, li, body, div, p, img {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-size: 100%;*/
+    /*vertical-align: baseline;*/
+    /*border: 0;*/
+/*}*/
+
+body{
+    background-color: black;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+}
+header{
+    color: white;
+    font-style: italic;
+}
+header #links{
+    text-align: right;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+header a{
+    color: white;
+}
+header a:visited{
+    color: white;
+}
+header h1{
+    font-size: 1.5em;
+}
+div.page-body{
+    background-color: #97a2a2;
+    overflow: auto;
+}
+div.page-body-content{
+    background-color: #0db14b;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 800px;
+    border: thin solid black;
+    overflow: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div.page-body-inner-content{
+    margin: auto;
+    width: 40%;
+    color: white;
+}
+p.page-body-inner-content-form#top{
+    margin-top: 0;
+    width: 100%;
+}
+p.page-body-inner-content-form#name{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+p.page-body-inner-content-form input[type=text],select,button{
+    box-sizing:border-box;
+    width: 100%;
+}
+p.page-body-inner-content-game-buttons{
+
+}
+p.page-body-inner-content-game-buttons button{
+    width: 12em;
+}
+
+div.game-body{
+    background-color: #97a2a2;
+    overflow: auto;
+}
+div.game-body-content{
+    margin: 1em auto;
+    width: 100%;
+    max-width: 800px;
+    overflow: auto;
+    text-align: center;
+}
+table.game-body-table{
+    background-color: white;
+    border: 2px solid black;
+    margin: auto;
+    border-collapse: collapse;
+}
+table.game-body-table tr{
+
+}
+table.game-body-table td{
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 2em;
+    border: thin solid black;
+}
+div.game-body-content p{
+    color: white;
+}
+
+.sea{
+    background-color: blue;
+}
+.island{
+
+}
+
+div.instr-body-content{
+    background-color: #94ea4a;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 800px;
+    overflow: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+div.instr-body-inner-content{
+    margin: auto;
+    width: 98%;
+    color: white;
+    text-align: center;
+}
+#instr-body-inner-content-img{
+    margin-top: 0;
+}
+.instr-body-inner-content-header{
+    border-bottom: 2px solid black;
+    text-align: left;
+    color: black;
+}
+.instr-body-inner-content-text{
+    text-align: left;
+    color: black;
+}
+
+footer{}
+header, footer{
+    width: 100%;
+    background-color: #18453b;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+header, footer, .page-body{
+    text-align: center;
+}
+header img, footer img {
+    margin:auto;
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}

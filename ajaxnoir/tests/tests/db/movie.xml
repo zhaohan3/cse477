@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <test_ajaxnoir_movie id="12" user="test" title="The Maltese Falcon" year="1941" rating="10" />
+    <test_ajaxnoir_movie id="14" user="test" title="Felis Noir" year="2016" rating="8" />
+    <test_ajaxnoir_movie id="15" user="other" title="The Maltese Falcon" year="1941" rating="10" />
+</dataset>

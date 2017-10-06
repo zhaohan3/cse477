@@ -1,0 +1,22 @@
+h1{
+    margin-top: 0;
+    background-color: red;
+}
+form{
+    width: 30%;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+/*form p{*/
+/*}*/
+input[type="submit"] {
+    width: 7em;
+}
+
+input[name="value"] {
+    width: 2em;
+}
+form{
+    border: thin solid black;
+}

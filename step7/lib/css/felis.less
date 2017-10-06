@@ -1,0 +1,188 @@
+html, body, header, footer, hgroup, nav, article, section,
+figure, figcaption, h1, h2, h3, ul, li, body, div, p, img {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+}
+
+@import "colors.less";
+
+body {
+  background-color: @backoutside;
+  color: black;
+}
+
+h1, h2 {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body > div {
+  background-color: @background;
+  max-width: 60em;
+  min-width: 40em;
+  margin: 0 auto;
+}
+
+p {
+  margin: 1em 2em;
+}
+
+p.date {
+  float: right;
+}
+
+a:visited, a:link {
+  color: #88f;
+}
+
+nav {
+  position: relative;
+  background-color: @msu;
+  color: white;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+  ul {
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+    }
+
+    li a {
+      display: block;
+      padding: 0.5em 0.5em;
+    }
+
+    a:hover {
+      background-color: green;
+    }
+
+    a:visited, a:link {
+      color: white;
+      text-decoration: none;
+    }
+
+  }
+
+  ul.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+header {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+  padding: 1em 0;
+
+  h1 {
+    font-size: 3em;
+    text-align: center;
+
+    img {
+      width: 2.12em;
+      height: 2em;
+      vertical-align: middle;
+    }
+  }
+
+  p {
+    font-size: 1.2em;
+    margin: 1em 5em;
+    text-align: center;
+    position: relative;
+  }
+
+}
+
+
+footer {
+  background-color: @msu;
+  color: white;
+  text-align: center;
+
+  p {
+    padding: 0.25em 0;
+  }
+}
+
+div.login, div.user {
+  form {
+    width: 22em;
+    margin: 1em auto;
+
+    p {
+      margin: 0.5em 0;
+    }
+
+    input[type="password"], input[type="email"] {
+      width: 20em;
+    }
+
+    input[type="submit"] {
+      width: 5em;
+    }
+
+    textarea {
+      width: 100%;
+      height: 6em;
+    }
+
+    a {
+      padding-left: 0.5em;
+      font-size: 0.85em;
+    }
+
+    p.msg {
+      text-align: center;
+      color: red;
+      font-size: 0.9em;
+      font-style: italic;
+    }
+  }
+}
+
+div.staff {
+  div.menu {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 2em;
+
+    p {
+      text-align: center;
+      margin: 1em 0;
+    }
+
+    img {
+      vertical-align: middle;
+      height: 100px;
+      width: auto;
+    }
+  }
+}
+
+form.table {
+  p {
+    text-align: center;
+  }
+
+  input[type="submit"] {
+    width: 8em;
+    margin: 0 1em;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+@import "mainpage.less";
+@import "case.less";
+@import "report.less";
+@import "tables.less";
+

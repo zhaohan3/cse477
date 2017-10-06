@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <test8_case id="22" client="9" agent="8" number="16-9876"
+                summary="case summary" status="O" />
+    <test8_case id="23" client="10" agent="8" number="16-1234"
+                summary="case summary" status="O" />
+    <test8_case id="25" client="9" agent="8" number="15-0011"
+                summary="case summary" status="C" />
+
+    <test8_user id="8" email="cbowen@cse.msu.edu" name="Owen, Charles"
+                phone="" address="" notes="" password=""
+                joined="2015-01-01 23:50:26" role="A" />
+    <test8_user id="9" email="bart@bartman.com" name="Simpson, Bart"
+                phone="" address="" notes="" password=""
+                joined="2015-02-01 01:50:26" role="C" />
+    <test8_user id="10" email="marge@bartman.com" name="Simpson, Marge"
+                phone="" address="" notes="" password=""
+                joined="2015-02-01 01:50:26" role="C" />
+</dataset>

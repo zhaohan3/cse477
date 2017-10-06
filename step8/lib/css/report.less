@@ -1,0 +1,95 @@
+div.report {
+  h2 {
+    border-bottom: thin solid black;
+    margin-top: 1em;
+  }
+
+  p.right {
+    float: right;
+  }
+
+  img {
+    max-width: 10em;
+
+  }
+
+  span.time {
+    font-style:italic;
+    font-size: 0.9em;
+  }
+
+  form {
+    margin: 1em 2em;
+
+    p {
+      margin: 0.5em 0;
+    }
+
+    #summary {
+      width: 100%;
+    }
+
+    input[type="password"], input[type="email"] {
+      width: 20em;
+    }
+
+    input[type="submit"] {
+      width: 10em;
+    }
+
+    textarea {
+      text-indent: 0;
+      width: 100%;
+      height: 6em;
+    }
+
+    #detail {
+      height: 10em;
+    }
+
+  }
+
+  div.timelist {
+    display: table;
+
+    div.report {
+      display: table-row;
+    }
+
+    div.report>div.info {
+      display: table-cell;
+      width: 7.5em;
+
+      p {
+        font-style: italic;
+        margin: 0.5em 0 0 0;
+        font-size: 0.85em;
+      }
+
+      p.agent {
+        margin-top: 0.15em;
+      }
+    }
+
+    div.report>p {
+      display: table-cell;
+
+      span.time {
+        padding-left: 0;
+        text-indent: 0;
+        display: inline-block;
+
+      }
+    }
+  }
+
+  div.reports {
+    input[type="submit"] {
+      width: 10em;
+    }
+  }
+
+  table {
+    margin-top: 0.5em;
+  }
+}

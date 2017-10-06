@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <!-- password: 87654321 -->
+    <testproj2_nurikabe id="1" difficulty="ultraEasy" userid="7" />
+    <testproj2_nurikabe id="2" difficulty="veryEasy" userid="7" />
+    <testproj2_nurikabe id="3" difficulty="easy" userid="7" />
+    <testproj2_nurikabe id="4" difficulty="medium" userid="7" />
+
+    <testproj2_nurikabe id="5" difficulty="easy" userid="8" />
+    <testproj2_nurikabe id="6" difficulty="veryEasy" userid="8" />
+    <testproj2_nurikabe id="7" difficulty="medium" userid="8" />
+
+    <testproj2_nurikabe id="8" difficulty="easy" userid="9" />
+    <testproj2_nurikabe id="9" difficulty="ultraEasy" userid="10" />
+</dataset>

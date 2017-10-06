@@ -1,0 +1,291 @@
+@grad-start: #888;
+@border-color: #888;
+@grad-end: #aaa;
+
+body {
+  background-image: url('images/office.jpg');
+  background-repeat: no-repeat;
+  background-color: #222;
+  background-size: 100% auto;
+}
+
+
+
+div.message p {
+  text-align: center;
+  color: #ccc;
+  font-style: italic;
+}
+
+form.movie {
+  width: 20em;
+  margin: 0 auto;
+
+  fieldset {
+    padding: 1em 0;
+  }
+
+  p {
+    margin: 1em 2em;
+    color: white;
+  }
+
+  label {
+    color: white;
+    width: 8em;
+    text-align: right;
+  }
+
+  #year {
+    width: 5em;
+  }
+
+  p.rating {
+    margin: 2em 0;
+    text-align: center;
+  }
+}
+
+h1 {
+  text-align: center;
+  color: #ccc;
+  font-family: Arial;
+  font-size: 3em;
+  font-style: italic;
+  margin: 0.5em auto;
+}
+
+p.buttons {
+  text-align: center;
+  word-spacing: 0.5em;
+  margin: 0 auto;
+  input {
+    width: 6em;
+  }
+  z-index: 50;
+}
+
+table {
+  margin: 1em auto;
+  -moz-box-shadow: 6pt 6px 10pt #888;
+  -webkit-box-shadow: 6pt 6px 10pt #888;
+  box-shadow: 6pt 6px 10pt #888;
+  border-left: 1px solid #e0e0e0;
+  border-collapse: collapse;
+}
+
+table th {
+  color: white;
+  background-color: @grad-start;
+  background: -webkit-gradient(linear, left top, left bottom, from(@grad-start), to(@grad-end));
+  background: -webkit-linear-gradient(top, @grad-start, @grad-end);
+  background: -moz-linear-gradient(top, @grad-start, @grad-end);
+  background: -ms-linear-gradient(top, @grad-start, @grad-end);
+  background: -o-linear-gradient(top, @grad-start, @grad-end);
+  text-shadow: rgba(0,0,0,.4) 0 1px 0;
+  border-right: 1px solid @border-color;
+  border-bottom: 1px solid @border-color;
+  border-top: 1px solid @border-color;
+  text-align: left;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-decoration: none;
+  padding: 0.1em 0.5em;
+}
+
+table td {
+  border-right: 1px solid @border-color;
+  border-bottom: 1px solid @border-color;
+  background: #ffffff;
+  padding: 0.1em 0.5em;
+  color: #4f6b72;
+
+  span.stars {
+    display: inline-block;
+    width: 140px;
+  }
+
+  span.num {
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+  }
+}
+
+th a:link {
+  color: #F5F3EB;
+}
+
+th a:visited {
+  color: #E3DCC5;
+}
+
+th a:hover {
+  color: #ffffff;
+}
+
+div.instructions {
+  width: 25em;
+  margin: 2em auto;
+  padding: 1em;
+  border: thin solid white;
+
+  p {
+    color: white;
+  }
+}
+
+footer p {
+  text-align: center;
+  color: #999;
+}
+
+form.login {
+  width: 25em;
+  margin: 0 auto;
+
+  fieldset {
+    padding: 1em 0;
+  }
+
+  p {
+    margin: 1em 2em;
+    color: white;
+  }
+
+  label {
+    display: inline-block;
+    color: white;
+    width: 5em;
+    text-align: right;
+  }
+
+  .keep {
+    text-align: center;
+  }
+
+  .keep label {
+    width: auto;
+    font-style: italic;
+    font-size: 0.9em;
+  }
+
+  input {
+    display: inline-block;
+  }
+
+  #year {
+    width: 5em;
+  }
+
+  p.rating {
+    margin: 2em 0;
+    text-align: center;
+  }
+}
+
+p.download {
+  text-align: center;
+  color: white;
+
+  a:link, a:visited {
+    color: #ccc;
+  }
+
+  a:hover {
+    color: white;
+  }
+}
+
+/*
+ * This bit of CSS makes the paper on the
+ * page 70% of the width.
+ */
+div.paper-wrapper {
+  width: 70%;
+  margin: 0 auto 0 auto;
+
+  background-image: url('images/paper.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+
+  // Required for the position absolute in div.paper
+  // to be relative to this div.
+  position: relative;
+}
+
+/*
+ * This sticks some content into the div at
+ * the end with a padding that forces the div to
+ * be the aspect ratio we want it to be for the
+ * paper background
+ */
+div.paper-wrapper:after {
+  padding-top: 125%;
+  display: block;
+  content: ' ';
+}
+
+/*
+ * This div is placed absolutely inside the other
+ * div and represents a piece of paper and the
+ * tabs. We need a nested div to make it the
+ * right width and place it above the :after text
+ * I added above.
+ */
+div.paper {
+  position: absolute;
+  top: 17%;
+  bottom: 0;
+  right: 22%;
+  left: 22%;
+  padding: 0;
+  color: #333;
+
+  > p {
+    text-align: center;
+    padding-top: 2em;
+    font-size: 2em;
+  }
+
+  li {
+    list-style-type: none;
+    margin-left: -77%;
+
+    > a img {
+      width: 25%;
+      opacity: 0.3;
+    }
+
+    > div {
+      display: none;
+      position: absolute;
+      top: -5%;
+      left: 0;
+      padding: 0;
+    }
+
+    > div.show {
+      display: block;
+    }
+
+    p.poster {
+      text-align: center;
+      margin-top: 5%;
+
+      img{
+        max-width: 50%;
+      }
+    }
+  }
+}
+
+p.attrib {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+
+

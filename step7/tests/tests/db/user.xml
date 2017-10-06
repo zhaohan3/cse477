@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dataset>
+    <test_user id="7" email="dudess@dude.com" name="Dudess, The"
+               phone="111-222-3333" address="Dudess Address"
+               notes="Dudess Notes" password="87654321"
+               joined="2015-01-22 23:50:26" role="S" />
+    <test_user id="8" email="cbowen@cse.msu.edu" name="Owen, Charles"
+               phone="999-999-9999" address="Owen Address"
+               notes="Owen Notes" password="super477"
+               joined="2015-01-01 23:50:26" role="A" />
+    <test_user id="9" email="bart@bartman.com" name="Simpson, Bart"
+               phone="999-999-9999" address=""
+               notes="" password="bart477"
+               joined="2015-02-01 01:50:26" role="C" />
+    <test_user id="10" email="marge@bartman.com" name="Simpson, Marge"
+               phone="" address=""
+               notes="" password="marge"
+               joined="2015-02-01 01:50:26" role="C" />
+</dataset>
