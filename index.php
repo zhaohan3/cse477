@@ -27,13 +27,13 @@
 
     <li><a href='step1'>Step 1</a></li>
 
-    <li><a href='step2'>Step 2</a></li>
+    <li><a href='step2/game.html'>Step 2</a></li>
 
-    <li><a href='step3'>Step 3</a></li>
+    <li><a href='step3/game.php'>Step 3</a></li>
 
-    <li><a href='step4'>Step 4</a></li>
+    <li><a href='step4/game.php'>Step 4</a></li>
 
-    <li><a href='step5'>Step 5</a></li>
+    <li><a href='step5/guessing.php'>Step 5</a></li>
 
     <li><a href='step7'>Step 7</a></li>
 
@@ -41,7 +41,7 @@
 
     <li><a href='step9'>Step 9</a></li>
 
-    <li><a href='step10'>Step 10</a></li>
+    <li><a href='step10/simon.php'>Step 10</a></li>
 
     <li><a href='ajaxnoir'>Step 11 (ajaxnoir)</a></li>
   </ul>
