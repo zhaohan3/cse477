@@ -13,8 +13,8 @@
 return function(Felis\Site $site) {
     date_default_timezone_set('America/Detroit');
     $site->setEmail('agbaydan@cse.msu.edu');
-    $site->setRoot('/~agbaydan/step7');
-    $site->dbConfigure('mysql:host=mysql-user.cse.msu.edu;dbname=agbaydan',
+    $site->setRoot('/cse477/step7');
+    $site->dbConfigure('mysql:host=localhost;dbname=agbaydan',
         'agbaydan',       // Database user
         'Zelda2017',     // Database password
         '');            // Table prefix

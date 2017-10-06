@@ -21,10 +21,11 @@ return function(Noir\Site $site) {
 		$dir = "ajaxnoir";
 	}
 
-	$site->setRoot("/~" . USER . "/$dir");
+	// $site->setRoot("/~" . USER . "/$dir");
+	$site->setRoot('/cse477/ajaxnoir');
 
 	$host = $_SERVER['HTTP_HOST'];
-	$site->dbConfigure('mysql:host=mysql-user.cse.msu.edu;dbname=' . USER,
+	$site->dbConfigure('mysql:host=localhost;dbname=' . USER,
 		USER,       // Database user
 		PASSWORD,     // Database password
 		'ajaxnoir_');            // Table prefix
